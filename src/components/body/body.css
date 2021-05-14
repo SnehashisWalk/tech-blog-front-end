@@ -1,0 +1,16 @@
+.bodyWrapper {
+  height: calc(100vh - 55px - 45px);
+  display: flex;
+}
+
+.bodyLeft {
+  flex: 3;
+}
+
+.bodyRight {
+  flex: 9;
+}
+
+.bodyLeftHeader {
+  
+}

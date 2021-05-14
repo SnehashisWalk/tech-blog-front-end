@@ -1,0 +1,25 @@
+.footerWrapper {
+  height: 45px;
+  bottom: 0;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ee0979; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    45deg,
+    #ee0979,
+    #ff6a00
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    45deg,
+    #ee0979,
+    #ff6a00
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.footerTitle {
+  margin: 0;
+  color: white;
+  letter-spacing: 5px;
+}
